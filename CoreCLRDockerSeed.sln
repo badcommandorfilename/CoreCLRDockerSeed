@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0EF37136-4905-49BA-B9D7-3665304D52EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{611F7714-D1EA-40F3-AFCF-17B2D9DBA88F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CoreCLRDockerSeed", "src\CoreCLRDockerSeed\CoreCLRDockerSeed.xproj", "{05FFF707-CF83-4A30-9086-7465D99CBED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05FFF707-CF83-4A30-9086-7465D99CBED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FFF707-CF83-4A30-9086-7465D99CBED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FFF707-CF83-4A30-9086-7465D99CBED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FFF707-CF83-4A30-9086-7465D99CBED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05FFF707-CF83-4A30-9086-7465D99CBED7} = {0EF37136-4905-49BA-B9D7-3665304D52EF}
+	EndGlobalSection
+EndGlobal
